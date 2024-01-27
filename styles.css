@@ -2,3 +2,45 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+body{
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    margin: 0px;
+    padding: 24px 140px;
+    background-color: ffffff;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid yellow;
+}
+
+#logo{
+    width: 200px;
+    border: 1px solid red;
+    color: 3953b2;
+}
+
+.navbar{
+    width: 800px;
+    flex: 1 1 auto;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-content: center;
+    border: 1px solid green;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navbar a{
+    font-size: 20px;
+    font-weight: bold;
+    color: 34113f;
+}
