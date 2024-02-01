@@ -22,7 +22,7 @@ body{
 
 header{
     margin: 0px;
-    padding: 24px 80px 10px;
+    padding: 10px 80px 10px;
     background-color: #fefffe;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@ header{
 .navbar a{
     font-size: 18px;
     font-weight: bold;
-    color: 34113f;
+    color: #34113f;
     text-decoration: none;
     color: #37414a;
     position: relative;
@@ -104,4 +104,24 @@ header{
 
 .hero-text-banner p{
     color: #fefffe;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #37414a;
+    background-color: #01bbd4;
+    height: 72px;
+    margin-top: auto;
 }
