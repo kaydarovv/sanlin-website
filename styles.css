@@ -23,7 +23,7 @@ body{
 header{
     margin: 0px;
     padding: 10px 80px 10px;
-    background-color: #fefffe;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
 }
@@ -34,9 +34,13 @@ header{
 }
 
 #logo a{
-    color: #34113f;
+    color: #A4303F;
     font-size: 48px;
     text-decoration: none;
+}
+
+span{
+    color: #00C9DC;
 }
 
 .navbar{
@@ -47,16 +51,14 @@ header{
     list-style: none;
     justify-content: center;
     gap: 100px;
-    align-content: center;
 }
 
 
 .navbar a{
     font-size: 18px;
     font-weight: bold;
-    color: #34113f;
+    color: #00A5AD;
     text-decoration: none;
-    color: #37414a;
     position: relative;
     padding: 0 10px;
 }
@@ -64,7 +66,7 @@ header{
 .navbar a::after{
     content: "";
     position: absolute;
-    background-color: #01bbd4;
+    background-color: #00C9DC;
     height: 3px;
     width: 0%;
     left: 0;
@@ -74,6 +76,15 @@ header{
 
 .navbar a:hover::after{
     width: 100%;
+}
+
+header button{
+    background-color: #00C9DC;
+    color: #A4303F;
+    border: 2px solid #00C9DC;
+    border-radius: 4px;
+    min-height: 25px;
+    flex-basis: 100px;
 }
 
 .hero-section{
@@ -86,6 +97,7 @@ header{
     align-items: center;
     padding: 100px;
     gap: 40px;
+    height: 100vh;
 }
 
 .hero-text-banner{
@@ -99,29 +111,82 @@ header{
 .hero-text-banner h1{
     font-size: 54px;
     font-weight: 900;
-    color: #01bbd4;
+    color: #00C9DC;
 }
 
 .hero-text-banner p{
     color: #fefffe;
 }
 
-
-
-
-
-
-
-
-
-
-
-footer {
+.info-section{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    gap: 40px;
+    height: 100vh;
+}
+
+.about-text{
+    flex-basis: 700px;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    color: #37414a;
-    background-color: #01bbd4;
-    height: 72px;
-    margin-top: auto;
+    text-align: center;
 }
+
+.about-text h1{
+    color: #00C9DC;
+}
+
+.services-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 100px 100px;
+    align-items: center;
+}
+
+.services-section h1{
+    color: #A4303F;
+    font-size: 36px;
+    font-weight: extra-bold;
+    margin-bottom: 60px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 200px;
+}
+
+.card p{
+    text-align: center;
+}
+
+.box{
+    border: 4px solid #00C9DC;
+    width: 300px;
+    height: 300px;
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+
+
+
