@@ -18,20 +18,19 @@ body{
     margin: 0px;
     display: flex;
     flex-direction: column;
-    background-color: #F3EED9;
+    background-color: #fefffe;
 }
 
 header{
     margin: 0px;
     padding: 10px 80px 10px;
-    background-color: #005567;
+    background-color: #fff;
     display: flex;
     justify-content: space-between;
 }
 
 #logo{
     width: 200px;
-
 }
 
 #logo a{
@@ -41,7 +40,7 @@ header{
 }
 
 span{
-    color: #00C9DC;
+    color: #ed453a;
 }
 
 .navbar{
@@ -56,9 +55,9 @@ span{
 
 
 .navbar a{
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    color: #00C9DC;
+    color: #000;
     text-decoration: none;
     position: relative;
     padding: 0 10px;
@@ -67,7 +66,7 @@ span{
 .navbar a::after{
     content: "";
     position: absolute;
-    background-color: #00C9DC;
+    background-color: #ed453a;
     height: 3px;
     width: 0%;
     left: 0;
@@ -80,12 +79,14 @@ span{
 }
 
 header button{
-    background-color: #00C9DC;
-    color: #A4303F;
-    border: 2px solid #00C9DC;
+    background-color: #ed453a;
+    color: #000;
+    border: 2px solid #ed453a;
     border-radius: 4px;
-    min-height: 25px;
+    height: 50px;
     flex-basis: 100px;
+    flex-grow: 0;
+    align-self: center;
 }
 
 .hero-section{
@@ -99,6 +100,7 @@ header button{
     padding: 100px;
     gap: 40px;
     height: 100vh;
+    box-shadow: 0px 0px 10px #000;
 }
 
 .hero-text-banner{
@@ -139,7 +141,7 @@ header button{
 }
 
 .about-text h1{
-    color: #00C9DC;
+    color: #ed453a;
     margin-bottom: 80px;
 }
 
@@ -151,7 +153,7 @@ header button{
 }
 
 .services-section h1{
-    color: #00C9DC;
+    color: #ed453a;
     font-size: 36px;
     font-weight: extra-bold;
     margin-bottom: 60px;
